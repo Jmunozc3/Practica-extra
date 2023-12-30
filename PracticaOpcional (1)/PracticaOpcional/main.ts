@@ -1,5 +1,8 @@
-import { ApolloServer } from "./@apollo/server";
-import { startStandaloneServer } from "./@apollo/server/standalone";
+import { ApolloServer } from "npm:@apollo/server@^4.9.5";
+import { startStandaloneServer } from "npm:@apollo/server@^4.9.5/standalone";
+
+//import { ApolloServer } from "./@apollo/server";
+//import { startStandaloneServer } from "./@apollo/server/standalone";
 import express from "npm:express@4.18.2";
 import { Mutation } from "./resolvers/mutation.ts";
 import { typeDefs } from "./gql/schema.ts";

@@ -1,4 +1,6 @@
-import { GraphQLError } from "graphql";
+import { GraphQLError } from "npm:graphql@^16.8.1";
+
+//import { GraphQLError } from "graphql";
 import { ClienteModelType, ClienteModel } from "../db/ClienteSchema.ts";
 import { PedidoModelType, PedidoModel } from "../db/PedidoSchema.ts";
 import { RepartidorModelType, RepartidorModel } from "../db/RepartidorSchema.ts";
